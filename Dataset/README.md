@@ -1,18 +1,16 @@
 # Dataset folder layout
 
-Place downloaded Kaggle files here before running the notebooks.
+Place downloaded UCI files here before running the notebooks.
 
 ```
 Dataset/
-  creditcardfraud/
-    creditcard.csv          # from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-  fraud-detection/
-    fraudTrain.csv          # from https://www.kaggle.com/datasets/kartik2112/fraud-detection
-    fraudTest.csv
-  processed/                # created by preprocess notebooks
-    creditcard_clean.csv
-    frauddetection_train_clean.csv
-    frauddetection_test_clean.csv
+  hospital-readmission/
+    diabetic_data.csv                          # from https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
+  diabetes-indicators/
+    diabetes_binary_health_indicators_BRFSS2015.csv   # from https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
+  processed/                                   # created by preprocess notebooks
+    hospital_readmission_clean.csv
+    diabetes_indicators_clean.csv
 ```
 
-CSV files are not in the repo because they are too large for GitHub. Download from the Kaggle links above.
+CSV files are not in the repo to keep it lightweight. Download from the UCI links above.
